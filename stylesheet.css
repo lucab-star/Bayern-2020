@@ -1,0 +1,194 @@
+
+.parallax-container {
+
+    display: flex;
+    min-height: 100vh;  
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-attachment: fixed;
+    background-image: url("https://www.in-muenchen.de/wp-content/uploads/2024/01/allianzarena-scaled.jpeg");
+    background-position: center;
+    background-size: cover;     
+    background-repeat: no-repeat;
+
+    color: var(--color);
+    row-gap: 4rem;
+    text-align: center;
+
+
+    color: var(--color);
+    row-gap: 4rem;
+    text-align: center;
+    
+}
+
+
+
+#navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(0,0,0,0.6);
+    padding: 15px;
+    text-align: center;
+}
+
+#navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+#navbar a:hover {
+    background-color: red;
+    border-radius: 5px;
+}
+
+img {
+    max-width: 30%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 100px;
+    border: 2px solid black;
+     max-width: 30%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 100px;
+    border: 2px solid black;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+
+.squad {
+    color: rgb(209, 209, 209);
+  
+}
+
+
+#navbar {
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+  background-color: #d81212;
+ 
+}
+
+
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+ 
+}
+
+
+.content {
+  padding: 16px;
+}
+
+h1 {
+   color: rgb(255, 255, 255);
+   text-shadow:
+    -1px -1px 0 black,
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black;
+
+}
+
+
+.matches {
+  color: rgb(255, 255, 255);
+
+}
+
+h3 {
+  text-align: center;
+
+ color: rgb(255, 255, 255); 
+ text-shadow:
+    -1px -1px 0 black,
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black;
+
+}
+
+h2 {
+
+ color: rgb(255, 255, 255); 
+ text-shadow:
+    -1px -1px 0 black,
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black;
+
+}
+
+
+#FINAL {
+  margin-bottom: 300px;
+}
+
+#IMAGE {
+  margin-bottom: 200px;
+}
+
+iframe {
+  margin-bottom: 200px;
+}
+
+#LOPE {
+  margin-bottom: 300px;
+}
+
+#END {
+  margin-bottom: 300px;
+}
+
+
+
+img:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 10px 25px rgba(0,0,0,0.5);
+}
+
+img:hover, iframe:hover {
+    transform: scale(1.08);
+    box-shadow: 0 0 25px red;
+}
+
+iframe {
+  margin-bottom: 200px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+iframe:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 10px 25px rgba(0,0,0,0.6);
+}
+
+#bisho {
+  margin-left:830px;
+}
+
+.hero {
+  width: 100%;
+  height: 70vh; 
+  overflow: hidden;
+}
+
+.hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+}
