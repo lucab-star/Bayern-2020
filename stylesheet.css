@@ -133,7 +133,9 @@ h2 {
      1px  1px 0 black;
 
 }
-
+body {
+  font-family: "Inter", sans-serif !important;
+}
 
 #FINAL {
   margin-bottom: 300px;
